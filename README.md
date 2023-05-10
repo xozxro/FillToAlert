@@ -43,7 +43,7 @@ By bypassing the image verifaction on Webull after saving the DID created on you
 
 Using this method, you will seldom need to redo your login. The script should continue to work for a period of time - I will update this section if an expiration time is discovered.
 
-To read more the original post on this process provided by the package used in this script, [please visit them here](https://github.com/tedchou12/webull/wiki/Workaround-for-Login-Method-2).
+#### To read the original post on this process provided by the package used in this script, [please visit them here](https://github.com/tedchou12/webull/wiki/Workaround-for-Login-Method-2).
 
 ### Configuring Discord Webhook
 
