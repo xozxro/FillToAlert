@@ -71,7 +71,7 @@ To configure the Discord webhook:
 ```json
 {
     "Webhook URL": "your_discord_webhook_url_here",
-    "Username": "(ie Cblast)"
+    "Username": "XyzTradez"
 }
 ```
 
