@@ -15,12 +15,13 @@ Before you begin, you must have the following:
 1. Clone or download the repository to your local machine.
 2. Open the `_secrets.py` file in a text editor.
 3. Enter your Webull login information and device ID in the file:
-```python
+`python
 WEBULL_LOGIN_EMAIL: str = "your_email"
 WEBULL_LOGIN_PWD: str = "your_password"
 WEBULL_TRADING_PIN: str = "your_trading_pin"
 WEBULL_DEVICE_ID: str = "Trader-Bot" # Change this if desired
-WEBULL_SECURITY_DID: str = "your_device_id"```
+WEBULL_SECURITY_DID: str = "your_device_id"`
+
 You can retrieve your device ID by following the instructions in the next section.
 4. Save and close the _secrets.py file.
 
