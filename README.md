@@ -25,7 +25,7 @@ WEBULL_SECURITY_DID: str = "your_device_id"
 You can retrieve your device ID by following the instructions in the next section.
 4. Save and close the _secrets.py file.
 
-#### Retrieving the Webull Device ID
+### Retrieving the Webull Device ID
 
 To retrieve your Webull device ID:
 
@@ -38,7 +38,7 @@ To retrieve your Webull device ID:
 - Scroll down to the 'Request Headers' section and copy the 'did' value.
 - Paste the 'did' value into the WEBULL_SECURITY_DID field in the _secrets.py file with 0 spaces between any of the quotes.
 
-#### Running the Script
+### Running the Script
 
 To run the script:
 
@@ -46,7 +46,7 @@ To run the script:
 - Open a command prompt or terminal window in the project directory.
 - Run the run.bat file by double-clicking on it. This will start the script and handle any unexpected script exits so that errors can be read.
 
-#### Configuring Discord Webhook
+### Configuring Discord Webhook
 
 To configure the Discord webhook:
 
