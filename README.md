@@ -23,6 +23,8 @@ Before you begin, you must have the following:
 - Python 3.7 or higher installed on your system. [Install here](https://python.org).
 - Chrome or Firefox web browser installed on your system
 
+#### Run 'setup.bat' from the same directory as 'requirements.txt' to install the necessary packages.
+
 ## Setup
 
 1. Clone or download the repository to your local machine.
