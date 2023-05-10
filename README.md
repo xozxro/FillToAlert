@@ -38,13 +38,7 @@ To retrieve your Webull device ID:
 - Scroll down to the 'Request Headers' section and copy the 'did' value.
 - Paste the 'did' value into the WEBULL_SECURITY_DID field in the _secrets.py file with 0 spaces between any of the quotes.
 
-### Running the Script
 
-To run the script:
-
-- Ensure that the _secrets.py file is saved and closed.
-- Open a command prompt or terminal window in the project directory.
-- Run the run.bat file by double-clicking on it. This will start the script and handle any unexpected script exits so that errors can be read.
 
 ### Configuring Discord Webhook
 
@@ -59,3 +53,11 @@ To configure the Discord webhook:
     "discord_webhook_name": "Trader Bot"
 }
 ```
+
+### Running the Script
+
+To run the script:
+
+- Ensure that the _secrets.py file is saved and closed.
+- Open a command prompt or terminal window in the project directory.
+- Run the run.bat file by double-clicking on it. This will start the script and handle any unexpected script exits so that errors can be read.
