@@ -23,6 +23,7 @@ WEBULL_DEVICE_ID: str = "Trader-Bot" # Change this if desired
 WEBULL_SECURITY_DID: str = "your_device_id"
 ```
 You can retrieve your device ID by following the instructions in the next section.
+
 4. Save and close the _secrets.py file.
 
 ### Retrieving the Webull Device ID
@@ -38,7 +39,11 @@ To retrieve your Webull device ID:
 - Scroll down to the 'Request Headers' section and copy the 'did' value.
 - Paste the 'did' value into the WEBULL_SECURITY_DID field in the _secrets.py file with 0 spaces between any of the quotes.
 
+By bypassing the image verifaction on webull after saving the DID created on your initial load of the webull page, you have logged that DID as having succesfully completed that verification to webull. So, we need to pass this ID with your credentials, so that webull doesn't require image verification - which we cannot handle progrmatically.
 
+Using this method, you will seldom need to redo your login. The script should continue to work for a period of time - I will update this section if an expiration time is discovered.
+
+To read more the original post on this process provided by the package used in this script, [please visit them here](https://github.com/tedchou12/webull/wiki/Workaround-for-Login-Method-2).
 
 ### Configuring Discord Webhook
 
