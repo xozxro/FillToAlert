@@ -70,8 +70,8 @@ To configure the Discord webhook:
 
 ```json
 {
-    "discord_webhook_url": "your_discord_webhook_url_here",
-    "discord_webhook_name": "Trader Bot"
+    "Webhook URL": "your_discord_webhook_url_here",
+    "Username": "Trader Bot"
 }
 ```
 
