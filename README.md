@@ -7,6 +7,7 @@ The script will call alerts as such:
 `BTO TICKER STRIKESIDE EXP @ FILLPRICE`
 
 and will call sells and exits according to your open position QT as well:
+
 `TRIM TICKER STRIKESIDE EXP @ FILLPRICE`
 
 `STC TICKER STRIKESIDE EXP @ FILLPRICE`
