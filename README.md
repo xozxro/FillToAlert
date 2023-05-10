@@ -1,6 +1,6 @@
 # FillToAlert - The Webull Option Trade Watcher
 
-The Webull Option Trade Watcher is a Python script that monitors a user's Webull brokerage account for option trades and sends alerts to Discord using a webhook. This guide will walk you through the steps to set up and run the script.
+FillToAlert is a Python script that monitors a user's Webull brokerage account for option trades and sends alerts to Discord using a webhook. This guide will walk you through the steps to set up and run the script.
 
 The script will call alerts as such:
 
