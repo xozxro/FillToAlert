@@ -1,0 +1,2 @@
+discord_webhook==0.14.0
+webull==0.6.1
