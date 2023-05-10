@@ -24,6 +24,7 @@ Before you begin, you must have the following:
 - Chrome or Firefox web browser installed on your system
 
 #### Run 'setup.bat' from the same directory as 'requirements.txt' to install the necessary packages.
+#### Or, navigate to the directory in a terminal, and use `py -m pip install -r requirements.txt`.
 
 ## Setup
 
