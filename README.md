@@ -55,7 +55,7 @@ To retrieve your Webull device ID:
 - Scroll down to the 'Request Headers' section and copy the 'did' value.
 - Paste the 'did' value into the WEBULL_SECURITY_DID field in the _secrets.py file with 0 spaces between any of the quotes.
 
-By passing the image verification on Webull, after saving the DID created on your initial load of the Webull page, that DID is logged as having succesfully completed that verification. So, we need to pass this ID with your credentials, so that Webull doesn't require image verification when accessing the account via this script - which we cannot handle progrmatically.
+By passing the image verification on Webull, after saving the DID created on your initial load of the Webull page, that DID is logged as having succesfully completed that verification. So, we need to pass this ID with your credentials, so that Webull doesn't require image verification when accessing the account via this script - which we cannot handle progmatically.
 
 Using this method, you will seldom need to redo your login. The script should continue to work for a period of time - I will update this section if an expiration time is discovered.
 
